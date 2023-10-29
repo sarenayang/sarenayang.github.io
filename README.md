@@ -1,2 +1,4 @@
-# sarenayang.github.io
-my personal website! (under construction)
+# My personal website
+
+My website created with React.js and Vite
+
