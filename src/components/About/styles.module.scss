@@ -1,0 +1,49 @@
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 40px;
+    min-height: 100vh;
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+    
+        font-weight: 300;
+        font-size: 25px;
+        margin: 30px 20px;
+        text-transform: uppercase;
+        font-style: italic;
+        color: rgb(73, 73, 73);
+        width: 30%;
+    }
+}
+
+
+.aboutText {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 30px 20px;
+    font-style: italic;
+    color: rgb(94, 94, 94);
+    width: 70%; 
+}
+
+.aboutContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.aboutImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    width: 30px;
+}
