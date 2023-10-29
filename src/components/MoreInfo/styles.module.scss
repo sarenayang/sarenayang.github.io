@@ -1,0 +1,32 @@
+.moreContainer {
+    position:relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+
+    p {
+        font-weight: 500;
+        margin-left : 50px;
+        width: 50%;
+    }
+    a {
+        color: #5e7e7f;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+    a:hover {
+        color: #88b7ba;
+        text-decoration: none;
+    }
+}
+
+.headshot {
+    width: 20%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.8px solid #393838;
+    
+}
