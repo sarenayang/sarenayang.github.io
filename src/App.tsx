@@ -1,8 +1,8 @@
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Funfacts from './components/MoreInfo/MoreInfo'
+import Footer from './components/Footer/Footer'
 import './App.css'
-import React from 'react'
 
 function App() {
 
@@ -14,6 +14,8 @@ function App() {
       <hr></hr>
 
       <Funfacts />
+
+      <Footer></Footer>
     </>
   )
 }

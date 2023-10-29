@@ -9,24 +9,40 @@
 
     p {
         font-weight: 500;
-        margin-left : 50px;
+        margin-left: 50px;
         width: 50%;
+
+        @media (max-width: 768px) {
+            width: 80%;
+            margin: 40px 0;
+        }
     }
     a {
-        color: #5e7e7f;
-        text-decoration: underline;
+        color: #a66969;
+        text-decoration: none;
         font-weight: 500;
     }
     a:hover {
-        color: #88b7ba;
-        text-decoration: none;
+        color: #6b4c4c;
+        text-decoration: underline;
+
+    }
+
+    .headshot {
+        width: 20%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 0.8px solid #393838;
+        
+        @media (max-width: 768px) {
+            width: 30vw;
+        }
+        
+        
+    }
+    @media (max-width: 768px) {
+        margin: 40px 0;
+        flex-direction: column;
     }
 }
 
-.headshot {
-    width: 20%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 0.8px solid #393838;
-    
-}

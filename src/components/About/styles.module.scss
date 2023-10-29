@@ -21,6 +21,9 @@
         color: rgb(73, 73, 73);
         width: 30%;
     }
+    @media (max-width: 768px) {
+        margin: 40px 0;
+    }
 }
 
 
