@@ -1,3 +1,4 @@
+import React from "react";
 import headshot from "../../assets/headshot.jpg"
 import styles from "./styles.module.scss"
 
