@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    top: 40px;
-    min-height: 100vh;
+    min-height: 92vh;
+    padding: 8vh 24px 5vh;
+    box-sizing: border-box;
 
     position: relative;
     justify-content: center;
@@ -13,13 +14,13 @@
 
     h1 {
     
-        font-weight: 300;
-        font-size: 25px;
-        margin: 30px 20px;
-        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.1;
         font-style: italic;
-        color: rgb(73, 73, 73);
-        width: 30%;
+        margin: 0 20px 24px;
+        color: var(--plum);
+        width: min(100%, 680px);
     }
     @media (max-width: 768px) {
         margin: 40px 0;
@@ -28,12 +29,12 @@
 
 
 .aboutText {
-    font-weight: 300;
-    font-size: 20px;
-    margin: 30px 20px;
-    font-style: italic;
-    color: rgb(94, 94, 94);
-    width: 70%; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0 20px 28px;
+    color: var(--muted-ink);
+    width: min(100%, 680px);
 }
 
 .aboutContact {
@@ -41,12 +42,23 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 12px;
 
 }
 .aboutImage {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 20px;
-    width: 30px;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border: 1px solid rgba(143, 120, 168, 0.25);
+    border-radius: 50%;
+    transition: transform 180ms ease, background-color 180ms ease;
+
+    &:hover {
+        transform: translateY(-3px);
+        background-color: var(--lavender-soft);
+    }
 }

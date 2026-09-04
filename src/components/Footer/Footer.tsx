@@ -4,9 +4,9 @@ const Footer = () => {
 
     return (
         <footer className={styles.footer}>
-            &copy; 2023 Sarena Yang
+            &copy; 2026 Sarena Yang
             <br></br>
-            <a href="mailto: sarenay2@illinois.edu">Email: sarenay2@illinois.edu</a>
+            <a href="mailto: ssrenayang@gmail.com">Email: ssrenayang@gmail.com</a>
         </footer>
     )
 

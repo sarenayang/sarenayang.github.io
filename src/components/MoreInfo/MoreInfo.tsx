@@ -1,5 +1,5 @@
 // import React from "react";
-import headshot from "../../assets/headshot.jpg"
+import headshot from "../../assets/2026 photo.jpg"
 import styles from "./styles.module.scss"
 
 const Funfacts = () => {
@@ -9,18 +9,20 @@ const Funfacts = () => {
             <img className={styles.headshot} src={headshot} alt="headshot" />
 
             <p>
-                I'm on the web team for HackIllinois, UIUC's student-run hackathon, as well as the infrastructure committee for Woman in Computer Science (WCS).
-                <br></br><br></br>
-                In my freetime, I enjoy playing the guitar, writing stories,
-                and dancing.
-                I also film/edit videos for my dance team Truth and Beauty, and UIUC's Asian American Association (AAA).
+                I went to the University of Illinois Urbana-Champaign, where I majored in Computer Science.
+                <br></br>
+                <br></br>
+                Right now, I'm based in Chicago, where I dance with a team called <span className={styles.teamName}>named.</span> that my friends and I started in 2026.
+                I also like filming and editing videos, and I have a YouTube channel where I post some of my work.
                 <ul>
-                    <li>Check out some of my team's <a target="_blank" href="https://www.youtube.com/@TNBdance/videos">dance covers</a></li>
+                    <li>Check out <a className={styles.youtubeLink} target="_blank" rel="noreferrer" href="https://www.youtube.com/@sirui_na">my YouTube channel</a>!</li>
                     <ul>
-                        <li>I filmed <a target="_blank" href="https://youtu.be/Cimxjr3snuA?si=DAjoh8GYpZpzoheE">this cover</a></li>
-                        <li>And edited <a target="_blank" href="https://youtu.be/8oVC3hLpB4M?si=GPwS3R4pprO51Hnm">this one!</a></li>
+                        <li>My <a className={styles.youtubeLink} target="_blank" href="https://youtu.be/Fppb9e0nZTs?si=UDANf5BTgwp-JDqi">most recent video</a>!</li>
                     </ul>
                     
+                </ul>
+                <ul>
+                    <li>Check out a <a className={styles.youtubeLink} target="_blank" rel="noreferrer" href="https://youtu.be/21B92-dPuVU?si=gny58wtZmHC6c6TS">named. performance</a> :p</li>
                 </ul>
             </p>
         </div>

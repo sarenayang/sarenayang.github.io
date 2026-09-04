@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 import { useState, useEffect } from 'react';
-import Resume from "../../assets/Sarena Yang Resume.pdf";
+import Resume from "../../assets/Sarena Yang Resume (Tech oriented).pdf";
 // import React from "react";
 
 const Navbar = () => {

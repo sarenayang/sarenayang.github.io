@@ -8,10 +8,11 @@ const About = () => {
         <div className={styles.aboutContainer}>
             <h1>Hi, I'm Sarena!</h1>
             <p className={styles.aboutText}>
-                I'm currently a junior at the University of Illinois at Urbana-Champaign 
-                studying Computer Science. I'm interested in full-stack development,
+                I'm currently a Software Development Engineer at GoDaddy, where I work on backend infrastructure for email provisioning.
+                <br></br>
+                I'm interested in full-stack development,
                 though I'm also 
-                interested in data science and machine learning. 
+                interested in data science, machine learning, and tech policy. 
                 <br></br>Feel free to reach
                 out to me!
             </p>
@@ -32,7 +33,7 @@ const About = () => {
                         alt="linkedin" />
                 </a>
 
-                <a href="mailto: sarenay2@illinois.edu">
+                <a href="mailto: ssrenayang@gmail.com">
                     <img 
                         className={styles.aboutImage} 
                         src={email} 

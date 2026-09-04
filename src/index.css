@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
-  font-family: Montserrat;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1.5;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 
-  color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #ffffff;
+  --ink: #332b3d;
+  --muted-ink: #665b72;
+  --lavender: #f5f0fa;
+  --lavender-soft: #eee6f6;
+  --lavender-deep: #8f78a8;
+  --plum: #68527e;
+
+  color: var(--ink);
+  background-color: var(--lavender);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,19 +25,18 @@
 
 a {
   font-weight: 500;
-  color: #000000;
+  color: var(--plum);
   text-decoration: inherit;
 }
 a:hover {
-  color: #a7aae4;
+  color: var(--lavender-deep);
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: var(--lavender);
 }
 
 
@@ -40,27 +47,15 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--plum);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--lavender-deep);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
