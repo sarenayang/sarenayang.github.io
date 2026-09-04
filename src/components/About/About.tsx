@@ -10,7 +10,7 @@ const About = () => {
             <p className={styles.aboutText}>
                 I'm currently a Software Development Engineer at GoDaddy, where I work on backend infrastructure for email provisioning.
                 <br></br>
-                I'm interested in full-stack development,
+                My main interests are in full-stack development,
                 though I'm also 
                 interested in data science, machine learning, and tech policy. 
                 <br></br>Feel free to reach
